@@ -1,11 +1,11 @@
 var words = [
-    ["C","H","E","W","B","A","C","C","A"],
-    ["T","A","T","O","O","I","N","E"],
-    ["S","K","Y","W","A","L","K","E","R"],
+    ["T", "R", "E", "E", "H", "O", "U", "S", "E"],
+    ["J","A","V","A","S","C","R","I","P","T"],
+    ["W","E","B","D","E","S","I","G","N"],
     ["E","D","U","C","A","T","I","O","N"],
     ["C","H","O","C","O","L","A","T","E"],
-    ["S","A","R","L","A","C","C'"]
-];
+    ["G","E","R","M","A","N","Y"]
+]
 var random = Math.floor((Math.random()*(words.length-1)));
 
 var randomWord = words[random]; // the word to guess will be chosen from the array above
@@ -75,10 +75,7 @@ var checkMeCharacter = function(){
     }
 };
 
-function init(){
-    printGuessField();
-}
-
+window.onload = init;
 
 
 
