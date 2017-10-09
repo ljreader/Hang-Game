@@ -1,10 +1,10 @@
-var lsgwoerter = [
-    ["T", "R", "E", "E", "H", "O", "U", "S", "E"],
-    ["J","A","V","A","S","C","R","I","P","T"],
+var letters = [
+    ["C","H","E","W","B","A","C","C","A"],
+    ["T","A","T","O","O","I","N","E"],
     ["W","E","B","D","E","S","I","G","N"],
     ["E","D","U","C","A","T","I","O","N"],
     ["C","H","O","C","O","L","A","T","E"],
-    ["G","E","R","M","A","N","Y"]
+    ["S","A","R","L","A","C","C"]
 ]
 var random = Math.floor((Math.random()*(lsgwoerter.length-1)));
 
@@ -65,8 +65,13 @@ var pruefeZeichen = function(){
     if(fertig){
         window.alert("You win!");
     }
+// pICTURe of leah telling han shed rather kiss a wookie
+    if(fehler === 4){
+        window.alert("Throw them into the pit!");
+    }
 
-    picture of han solo being pushed
+
+    // picture of han solo being pushed
     if(fehler === 5){window.alert("Move them into position"}
 
 

@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 body {
     background: url('http://www.writteninpencil.de/Projekte/Hangman/hangman-bg.png') fixed;
@@ -13,9 +12,12 @@ input {
 
 #ratefeld {
     font-family: 'Permanent Marker', 'cursive';
-    font-size: 2.0em;
 }
 
 h1 {
-    font-family: 'Permanent Marker', 'cursive';
+    font-family: "Stjldbl1.ttf"
+}
+
+h2 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
