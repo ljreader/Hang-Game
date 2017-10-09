@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 body {
-    background: url('http://www.writteninpencil.de/Projekte/Hangman/hangman-bg.png') fixed;
+    padding-top: 100px;
+    padding-right: 1000px;
+    background: background url("../images/reytatooin.jpg"); background-size: cover;
     text-align: center;
     font-family: Helvetica, sans-serif;
 }
