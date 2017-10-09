@@ -4,8 +4,6 @@ var letters = [
     ["W","E","B","D","E","S","I","G","N"],
     ["E","D","U","C","A","T","I","O","N"],
     ["C","H","O","C","O","L","A","T","E"],
-    ["S","A","R","L","A","C","C"]
-]
 var random = Math.floor((Math.random()*(lsgwoerter.length-1)));
 
 var lsgwort = lsgwoerter[random]; // the word to guess will be chosen from the array above
